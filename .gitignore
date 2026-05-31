@@ -1,0 +1,14 @@
+node_modules/
+cache/
+artifacts/
+typechain-types/
+coverage/
+coverage.json
+foundry-out/
+out/
+build/
+dist/
+deployments/
+.env
+.DS_Store
+*.log

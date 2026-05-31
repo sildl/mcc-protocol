@@ -1,0 +1,19 @@
+{
+  "name": "mcc-protocol",
+  "version": "0.1.0",
+  "description": "Multi-Chain Consciousness — Trustless cross-chain state verification via ZK proofs",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "test": "npx hardhat test",
+    "coverage": "npx hardhat coverage"
+  },
+  "repository": { "type": "git", "url": "https://github.com/sildl/mcc-protocol.git" },
+  "author": "sildl",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@openzeppelin/contracts": "4.9.6",
+    "dotenv": "^16.4.0",
+    "hardhat": "^2.22.0"
+  }
+}

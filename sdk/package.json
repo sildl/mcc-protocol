@@ -1,0 +1,22 @@
+{
+  "name": "@mcc-protocol/sdk",
+  "version": "0.1.0",
+  "description": "SDK for Multi-Chain Consciousness — cross-chain state queries",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "files": ["dist/", "src/"],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "keywords": ["blockchain", "cross-chain", "zk-proofs", "mcc", "synapse"],
+  "license": "MIT",
+  "peerDependencies": {
+    "ethers": "^6.0.0"
+  },
+  "devDependencies": {
+    "ethers": "^6.13.0",
+    "typescript": "^5.5.0"
+  }
+}
